@@ -3,8 +3,8 @@
 # --- Configuração ---
 TMUX_SESSION_NAME="nerdminer"
 MINER_DIR="/root/cpuminer-opt"
-MINER_CMD="./cpuminer -a sha256d -o stratum+tcp://solo.ckpool.org:3333 -u SEU_ENDERECO_DE_CARTEIRA_BTC_AQUI"
-DISPLAY_SCRIPT_PATH="/root/PiMainer_v5.py" # Verifique se este é o nome e caminho corretos
+MINER_CMD="./cpuminer -a sha256d -o stratum+tcp://solo.ckpool.org:3333 -u bc1qkfm0r9mpqnk7gnfercqyheqa3n5x6ycmyav48p"
+DISPLAY_SCRIPT_PATH="/root/PiMainer/pimainer_display.py" # Verifique se este é o nome e caminho corretos
 
 # --- Lógica do Script ---
 # Garante que não haja uma sessão antiga com o mesmo nome
