@@ -1,0 +1,12 @@
+[Unit]
+Description=PiMainer Service - TMUX session with cpuminer and display
+After=network.target
+
+[Service]
+Type=forking
+User=root
+ExecStart=/root/start_pimainer.sh
+
+[Install]
+WantedBy=multi-user.target
+
